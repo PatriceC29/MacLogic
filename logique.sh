@@ -4,7 +4,7 @@
 if command -v python &> /dev/null; then
     PY_CMD="python"
 else
-P   Y_CMD="python3"
+    PY_CMD="python3"
 fi
 
 # Checks the python version
