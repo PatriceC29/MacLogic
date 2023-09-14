@@ -1,7 +1,9 @@
 # Usage
 Run the program : 
 * sudo logic_x86
+
 or 
+
 * sudo logic_arm
 
 If you don't have access to the sudo command, you can still run it without. It will copy less data.
