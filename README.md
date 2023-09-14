@@ -33,16 +33,13 @@ The program will then estimate the amount of data to copy and create a container
 At the end of the copy process the SHA1 hash of the container is computed.
 A log file of the process is also created.
 
+The program uses custom builds of rsync for both architectures located in the ./bin subdirectory
+
 # Notes
 The x86 release is based upon the Python 2.x version of the script.
 The ARM release is based upon the Python 3.x version of the script.
 
 The x86 version as been tested on MacOS High Sierra.
 The ARM version as been tested on MacOS Ventura.
-
-An rsync binary for each architecture (x86 and ARM) is indluded in the ./bin folder.
-That binary will be called accordingly.
-
-A shell launcher is present and will automatically switch to the appropriate Python script if you choose to do so.
 
 Using the binaries is recommanded.
